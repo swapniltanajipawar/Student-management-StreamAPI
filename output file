@@ -1,0 +1,4 @@
+All Students: [Student{id=1, name='John', age=20}, Student{id=2, name='Shubham', age=27}, Student{id=3, name='Swapnil', age=27}]
+Students older than 18: [Student{id=1, name='John', age=20}, Student{id=2, name='Shubham', age=27}, Student{id=3, name='Swapnil', age=27}]
+Students Sorted by Name: [Student{id=1, name='John', age=20}, Student{id=2, name='Shubham', age=27}, Student{id=3, name='Swapnil', age=27}]
+Student Names in Uppercase: [JOHN, SHUBHAM, SWAPNIL]
