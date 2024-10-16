@@ -33,7 +33,7 @@ public class StudentApplication implements CommandLineRunner {
 
             studentsService.createStudent(student1);
             studentsService.createStudent(student2);
-        } catch (Exception e) args                                                                           {
+        } catch (Exception e) args {
             System.out.println(e.getMessage());
         }
 
