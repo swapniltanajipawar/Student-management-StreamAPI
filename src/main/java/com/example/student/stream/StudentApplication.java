@@ -28,12 +28,12 @@ public class StudentApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         try {
-            Student student1 = new Student("Shubham", 27);
-            Student student2 = new Student("Swapnil", 27);
+            Student student1 = new Student("Shubhangi", 37);
+            Student student2 = new Student("Swaraj", 27);
 
             studentsService.createStudent(student1);
             studentsService.createStudent(student2);
-        } catch (Exception e) args {
+        } catch (Exception e) {
             System.out.println(e.getMessage());
         }
 
